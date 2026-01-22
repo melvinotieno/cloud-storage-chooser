@@ -1,13 +1,21 @@
 {
-  "name": "cloud-storage-chooser",
+  "name": "cloud-storage-picker",
   "version": "0.0.0",
   "description": "",
+  "keywords": [],
+  "homepage": "",
+  "bugs": "",
+  "license": "MIT",
+  "author": "Melvin Otieno <o.melvinotieno@gmail.com> (https://melvinotieno.com)",
+  "repository": {
+    "type": "git"
+  },
+  "packageManager": "pnpm@10.28.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.28.0"
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
