@@ -1,8 +1,11 @@
 {
   "name": "cloud-storage-picker",
   "version": "0.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "Pick files from a cloud storage provider such as Dropbox, Google Drive and more.",
+  "keywords": [
+    "dropbox-chooser",
+    "google-drive-picker"
+  ],
   "homepage": "https://github.com/melvinotieno/cloud-storage-picker",
   "bugs": "https://github.com/melvinotieno/cloud-storage-picker/issues",
   "license": "MIT",
@@ -12,11 +15,21 @@
     "url": "https://github.com/melvinotieno/cloud-storage-picker"
   },
   "packageManager": "pnpm@10.28.1",
-  "main": "index.js",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./dropbox": "./dist/providers/dropbox.js",
+    "./google-drive": "./dist/providers/google-drive.js"
+  },
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup"
   },
   "devDependencies": {
+    "tsup": "^8.5.1",
     "typescript": "^5.9.3"
   }
 }
