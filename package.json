@@ -1,6 +1,6 @@
 {
   "name": "cloud-storage-picker",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Pick files from a cloud storage provider such as Dropbox, Google Drive and more.",
   "keywords": [
     "dropbox-chooser",
