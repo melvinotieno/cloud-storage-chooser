@@ -8,6 +8,18 @@ importers:
 
   .:
     devDependencies:
+      '@types/dropbox-chooser':
+        specifier: ^1.0.8
+        version: 1.0.8
+      '@types/gapi':
+        specifier: ^0.0.47
+        version: 0.0.47
+      '@types/google.accounts':
+        specifier: ^0.0.18
+        version: 0.0.18
+      '@types/google.picker':
+        specifier: ^0.0.52
+        version: 0.0.52
       http-server:
         specifier: ^14.1.1
         version: 14.1.1
@@ -314,8 +326,20 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@types/dropbox-chooser@1.0.8':
+    resolution: {integrity: sha512-iXAJPSOgucUTAVOYipdzbA4VHFJ9AiAWBdAq0/fR+W3DUcPCH7lGZ2TAonK2WX4vYkSY7omLwfggX591HhsEVQ==}
+
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
+
+  '@types/gapi@0.0.47':
+    resolution: {integrity: sha512-/ZsLuq6BffMgbKMtZyDZ8vwQvTyKhKQ1G2K6VyWCgtHHhfSSXbk4+4JwImZiTjWNXfI2q1ZStAwFFHSkNoTkHA==}
+
+  '@types/google.accounts@0.0.18':
+    resolution: {integrity: sha512-yHaPznll97ZnMJlPABHyeiIlLn3u6gQaUjA5k/O9lrrpgFB9VT10CKPLuKM0qTHMl50uXpW5sIcG+utm8jMOHw==}
+
+  '@types/google.picker@0.0.52':
+    resolution: {integrity: sha512-k0HyW8HxJePomM2r0JWq9nE9XG6qY93lVpoVnaV4WjQggDHrGwDKq3G8CGpcBWhQlJBTxX9jDIrI7RQnqjM63w==}
 
   acorn@8.15.0:
     resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
@@ -868,7 +892,15 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.56.0':
     optional: true
 
+  '@types/dropbox-chooser@1.0.8': {}
+
   '@types/estree@1.0.8': {}
+
+  '@types/gapi@0.0.47': {}
+
+  '@types/google.accounts@0.0.18': {}
+
+  '@types/google.picker@0.0.52': {}
 
   acorn@8.15.0: {}
 

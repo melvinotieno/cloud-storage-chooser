@@ -30,6 +30,10 @@
     "dev": "tsup --watch --onSuccess \"http-server\""
   },
   "devDependencies": {
+    "@types/dropbox-chooser": "^1.0.8",
+    "@types/gapi": "^0.0.47",
+    "@types/google.accounts": "^0.0.18",
+    "@types/google.picker": "^0.0.52",
     "http-server": "^14.1.1",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3"
