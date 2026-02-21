@@ -35,6 +35,10 @@ export interface GoogleDriveFileData {
    * The URL of the file.
    */
   url: string;
+  /**
+   * The access token for the file.
+   */
+  accessToken: string;
 }
 
 export type GoogleDriveProvider = (
@@ -66,6 +70,7 @@ export const googleDriveProvider: GoogleDriveProvider = (config, options) => {
                   name: doc[google.picker.Document.NAME]!,
                   mimeType: doc[google.picker.Document.MIME_TYPE]!,
                   url: doc[google.picker.Document.URL]!,
+                  accessToken: token,
                 },
               };
             });
